@@ -1,3 +1,6 @@
+# Author: Harry Moss
+# Date: 11 February, 2024
+
 import os
 from moviepy.editor import VideoFileClip
 
@@ -31,5 +34,5 @@ def organiseVideosByOrientation(sourceFolder):
                 print(f"Error processing {file}: {e}")
 
 # Usage
-sourceFolder = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/Instagram Graph API/sadhguruReels'
+sourceFolder = 'PATH_TO_SOURCE_FOLDER'
 organiseVideosByOrientation(sourceFolder)
