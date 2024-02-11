@@ -1,11 +1,14 @@
+# Author: Harry Moss
+# Date: 11 February, 2024
+
 import json
 import csv
 
-# Path to your JSON file
-jsonFilePath = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/Instagram Graph API/missingVideos.json'
+# Path to JSON file
+jsonFilePath = 'PATH_TO_JSON'
 
-# Path where you want to save the CSV file
-csvFilePath = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/Instagram Graph API/missingVideos.csv'
+# Path to saving the CSV file
+csvFilePath = 'PATH_TO_OUTPUT_CSV'
 
 # Open the JSON file and load its content
 with open(jsonFilePath, 'r') as json_file:
