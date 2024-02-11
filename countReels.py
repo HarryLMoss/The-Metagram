@@ -4,7 +4,7 @@
 import json
 
 # Path to the JSON file
-jsonFilePath = 'YOUR_JSON_PATH' #TODO Update this JSON path
+jsonFilePath = 'YOUR_JSON_PATH'
 
 # Function to count the number of reels in the JSON file
 def countReelsInJson(file_path):
