@@ -1,3 +1,6 @@
+# Author: Harry Moss
+# Date: 11 February, 2024
+
 import json
 import httpx
 from urllib.parse import quote
