@@ -1,13 +1,18 @@
 # Constants
-START_VIDEO = 1
-END_VIDEO = 715
+START_VIDEO = 1 # Replace with starting video
+END_VIDEO = 715 # Replace with ending video
 
 import json
 import os
 import re
 import requests
 
-import os
+# File paths
+jsonFilePath = 'YOUR_JSON_PATH'  # Replace with your JSON file path
+saveDirectory = 'YOUR_VIDEO_OUTPUT_PATH'  # Replace with your desired save directory
+
+# Ensure the save directory exists
+os.makedirs(saveDirectory, exist_ok=True)
 
 def validFileName(filename, savePath, maxLength=255):
     """Truncate and clean the filename to make it valid, considering the save path."""
@@ -42,12 +47,5 @@ def processVideos(jsonFile, savePath, startVideo=START_VIDEO, endVideo=END_VIDEO
         print(f'Downloading: {filename}')
         downloadVideo(videoUrl, filename, savePath)
         print(f'Saved: {filename}')
-
-# Example usage
-jsonFilePath = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/Instagram Graph API/missingVideos.json'  # Replace with your JSON file path
-saveDirectory = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/Instagram Graph API/sadhguruReels'  # Replace with your desired save directory
-
-# Ensure the save directory exists
-os.makedirs(saveDirectory, exist_ok=True)
 
 processVideos(jsonFilePath, saveDirectory, startVideo=START_VIDEO, endVideo=END_VIDEO)
