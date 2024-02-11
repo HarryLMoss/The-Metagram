@@ -1,0 +1,1 @@
+In this folder you will find all output video reels that the Metagram has scraped from the specified users account. They are all in mp4 format and in a lossless quality from the pixel count that it was uploaded in.
