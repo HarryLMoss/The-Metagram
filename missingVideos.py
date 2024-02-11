@@ -2,9 +2,9 @@ import json
 import os
 
 # Replace these paths with the actual paths on your system
-jsonFilePath = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/Instagram Graph API/reels.json'  # TODO: Update this path
-videosFolderPath = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/Instagram Graph API/sadhguruReels'  # TODO: Update this path
-outputJsonPath = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/Instagram Graph API/missingVideos.json'  # TODO: Update this path for the output file
+jsonFilePath = 'YOUR_JSON_PATH'  # TODO: Update this path
+videosFolderPath = 'YOUR_VIDEO_FOLDER_PATH'  # TODO: Update this path
+outputJsonPath = 'YOUR_OUTPUT_PATH'  # TODO: Update this path for the output file
 
 def cleanTextForFilename(text):
     """Adjust text to match filename conversion rules."""
