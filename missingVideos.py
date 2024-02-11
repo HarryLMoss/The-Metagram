@@ -1,10 +1,13 @@
+# Author: Harry Moss
+# Date: 11 February, 2024
+
 import json
 import os
 
-# Replace these paths with the actual paths on your system
-jsonFilePath = 'YOUR_JSON_PATH'  # TODO: Update this path
-videosFolderPath = 'YOUR_VIDEO_FOLDER_PATH'  # TODO: Update this path
-outputJsonPath = 'YOUR_OUTPUT_PATH'  # TODO: Update this path for the output file
+# File paths
+jsonFilePath = 'YOUR_JSON_PATH'  
+videosFolderPath = 'YOUR_VIDEO_FOLDER_PATH'  
+outputJsonPath = 'YOUR_OUTPUT_PATH'
 
 def cleanTextForFilename(text):
     """Adjust text to match filename conversion rules."""
