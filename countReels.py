@@ -1,7 +1,7 @@
 import json
 
 # Path to the JSON file
-jsonFilePath = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/Instagram Graph API/reels.json'
+jsonFilePath = 'YOUR_JSON_PATH' #TODO Update this JSON path
 
 # Function to count the number of reels in the JSON file
 def countReelsInJson(file_path):
