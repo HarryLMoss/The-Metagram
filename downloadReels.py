@@ -1,3 +1,6 @@
+# Author: Harry Moss
+# Date: 11 February, 2024
+
 # Constants
 START_VIDEO = 1 # Replace with starting video
 END_VIDEO = 715 # Replace with ending video
