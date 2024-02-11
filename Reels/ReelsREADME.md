@@ -1,1 +1,1 @@
-In this folder you will find all output video reels that the Metagram has scraped from the specified users account. They are all in mp4 format and in a lossless quality from the pixel count that it was uploaded in.
+In this folder you will find the output JSON file as well as a CSV file from the same data. This folder could also be used as the storage of all the downloaded mp4 videos resulting from running downloadReels.py.
