@@ -7,6 +7,7 @@ _An overview of the Python scripts are as follows:_
 3. **countReels.py** - a simple means to count the number of reels in the JSON file.
 4. **missingVideos.py** - this is a safety checking measure to tell whether or not there are missing videos by comparing the first 50 characters of the downloaded videos' name with the respective contents of the original JSON file.
 5. **orientation.py** - a short program designed to check whether a video is landscape or portrait, thus categorising the video as either portrait, a reel, or landscape, which is the older IGTV format.
+6. **mp4Tomp3.py** - another simple but effective tool that will convert the downloaded mp4 video into an mp3 audio format. Useful when trying to create video transcripts as it reduces the overall size of the file.
 
 There is also a 'Reels' folder provided in this repository which contains example JSON and csv metadata files of approx. 700 Instagram Reels of a user's account. The code will work with this data, however please note that one will need to replace the file paths with the correct pathway within each Python program in order for them to work.
 
