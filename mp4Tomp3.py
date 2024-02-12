@@ -1,10 +1,13 @@
+# Author: Harry Moss
+# Date: 12 February, 2024
+
 from moviepy.editor import VideoFileClip
 import os
 
 # Directory containing the MP4 files
-video_dir = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/IDY Upa Yoga Videos/Guided Videos'
+video_dir = 'YOUR_MP4_PATH'
 # Directory where you want to save the MP3 files
-audio_dir = '/Users/harrymoss/Library/CloudStorage/OneDrive-Personal/AI Content/Emedia AI Projects/IDY Upa Yoga Videos/Audio Files'
+audio_dir = 'YOUR_MP3_PATH'
 
 # Ensure the audio directory exists
 os.makedirs(audio_dir, exist_ok=True)
