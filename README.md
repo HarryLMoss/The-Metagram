@@ -49,7 +49,7 @@ Contributions to improve Bhairagini AI are welcome. Please follow these steps to
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
 
-## Acknowledgments
+## Acknowledgements
 Thanks to the Python community for providing extensive resources and libraries that support projects like this, along with the Instagram Graph API for enabling access to Instagram profile data.
 
 ## Contact
