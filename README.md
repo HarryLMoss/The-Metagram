@@ -37,14 +37,7 @@ python countReels.py
 
 Note: The links to Instagram Reels in the JSON file expire after approximately 2 days. Run instaScrape.py again to refresh the data.
 
-## Contributing
-Contributions to improve Bhairagini AI are welcome. Please follow these steps to contribute:
 
-- Fork the repository.
-- Create a new branch (git checkout -b feature-branch).
-- Commit your changes (git commit -am 'Add some feature').
-- Push to the branch (git push origin feature-branch).
-- Create a new Pull Request.
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
